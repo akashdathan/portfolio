@@ -26,7 +26,7 @@ export default function Header() {
     }, []);
 
     return (
-        <header className={`sticky lg:px-20 top-0 z-30 w-full font-display ${isScrolled ? 'bg-opacity-10 shadow-sm' : 'bg-white'}`}>
+        <header className={`sticky lg:px-16 top-0 z-30 w-full font-display ${isScrolled ? 'bg-opacity-10 shadow-sm' : 'bg-white'}`}>
 
             <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
@@ -49,12 +49,12 @@ export default function Header() {
                         <Bars3Icon className="h-10 w-10" aria-hidden="true" />
                     </button>
                 </div>
-                <div className="hidden lg:flex lg:gap-x-12">
+                <div className="hidden lg:flex lg:gap-x-6">
                     {navigation.map((item) => (
                         <a
                             key={item.name}
                             href={item.href}
-                            className="text-xl leading-6 text-font-grey"
+                            className="text-xl leading-6 text-font-grey rounded-lg hover:bg-gray-100 p-2 px-4"
                         >
                             {item.name}
                         </a>

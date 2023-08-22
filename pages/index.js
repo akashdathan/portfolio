@@ -59,7 +59,7 @@ export default function Example() {
                   <br />
                   I'm Akash.
                 </h1>
-                <p className="mt-4 text-xl md:text-xl leading-8 text-gray-600 pr-10 py-6">
+                <p className="mt-4 text-xl leading-8 text-font-grey pr-10 py-6">
                   Building software that embody a blend of simplicity and elegance without compromising on performance.
                 </p>
 
@@ -96,13 +96,13 @@ export default function Example() {
         </main>
 
         {/*Custom Footer*/}
-        <footer className="bg-white">
+        <footer className="bg-white px-16">
           <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-            <span className="text-sm lg:text-md text-gray-500 sm:text-center dark:text-gray-400">© 2023 Akash. All Rights Reserved.
+            <span className="text-md lg:text-md text-font-grey sm:text-center">© 2023 Akash. All Rights Reserved.
             </span>
-            <ul className="flex flex-wrap items-center mt-3 text-sm md:text-md font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <ul className="flex flex-wrap items-center mt-3 text-md md:text-md font-medium text-font-grey sm:mt-0">
               <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                <a href="#" className="mr-4 md:mr-6">Privacy Policy</a>
               </li>
             </ul>
           </div>

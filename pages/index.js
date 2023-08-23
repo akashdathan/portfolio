@@ -1,53 +1,9 @@
-// import Container from '../components/container'
-// import MoreStories from '../components/more-stories'
-// import HeroPost from '../components/hero-post'
-// import Intro from '../components/intro'
-// import Layout from '../components/layout'
-// import { getAllPostsForHome } from '../lib/api'
-// import Head from 'next/head'
-// import { CMS_NAME } from '../lib/constants'
-//
-// export default function Index({ preview, allPosts }) {
-//   const heroPost = allPosts[0]
-//   const morePosts = allPosts.slice(1)
-//   return (
-//     <>
-//       <Layout preview={preview}>
-//         <Head>
-//           <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
-//         </Head>
-//         <Container>
-//           <Intro />
-//           {heroPost && (
-//             <HeroPost
-//               title={heroPost.title}
-//               coverImage={heroPost.coverImage}
-//               date={heroPost.date}
-//               author={heroPost.author}
-//               slug={heroPost.slug}
-//               excerpt={heroPost.excerpt}
-//             />
-//           )}
-//           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-//         </Container>
-//       </Layout>
-//     </>
-//   )
-// }
-//
-// export async function getStaticProps({ preview = false }) {
-//   const allPosts = (await getAllPostsForHome(preview)) ?? []
-//   return {
-//     props: { preview, allPosts },
-//   }
-// }
-
 import Header from '../components/header'
 
 export default function Example() {
 
   return (
-      <div className="bg-white flex flex-col min-h-screen">
+      <div className="bg-white flex flex-col min-h-screen font-display">
         <Header />
 
         <main className="flex-grow flex items-center justify-center">
@@ -60,7 +16,7 @@ export default function Example() {
                   I'm Akash.
                 </h1>
                 <p className="mt-4 text-xl leading-8 text-font-grey pr-10 py-6">
-                  Building software that embody a blend of simplicity and elegance without compromising on performance.
+                  In the realm of software, I value simplicity, elegance, and uncompromised performance.
                 </p>
 
                 {/*Social Media Icons */}
@@ -96,17 +52,17 @@ export default function Example() {
         </main>
 
         {/*Custom Footer*/}
-        <footer className="bg-white px-16">
+        <footer className="flex-grow flex items-end justify-center lg:px-8">
           <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-            <span className="text-md lg:text-md text-font-grey sm:text-center">© 2023 Akash. All Rights Reserved.
-            </span>
-            <ul className="flex flex-wrap items-center mt-3 text-md md:text-md font-medium text-font-grey sm:mt-0">
+            <span className="flex flex-wrap text-md lg:text-md text-font-grey justify-center md:justify-start">© 2023 Akash. All Rights Reserved.</span>
+            <ul className="flex flex-wrap items-center mt-1 text-md md:text-md font-medium text-font-grey justify-center md:justify-start">
               <li>
-                <a href="#" className="mr-4 md:mr-6">Privacy Policy</a>
+                <a href="#">Privacy Policy</a>
               </li>
             </ul>
           </div>
         </footer>
+
       </div>
   )
 }

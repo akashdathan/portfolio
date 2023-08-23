@@ -6,3 +6,8 @@
 /* purgecss end ignore */
 @tailwind utilities;
 
+/* Jumping Scrollbar issue fix */
+html {
+    width:100vw;
+    overflow-x:hidden;
+}

@@ -180,7 +180,7 @@ From your contentful space, go to **Settings > API keys**. There will be an exam
 Next, copy the `.env.local.example` file in this directory to `.env.local` (which will be ignored by Git):
 
 ```bash
-cp .env.local.example .env.local
+cp .env.local .env.local
 ```
 
 Then set each variable on `.env.local`:

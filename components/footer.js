@@ -1,30 +1,48 @@
-import Container from './container'
-import { EXAMPLE_PATH } from '../lib/constants'
 
 export default function Footer() {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
-      <Container>
-        <div className="flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Statically Generated with Next.js.
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://nextjs.org/docs/basic-features/pages"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
+      <footer>
+        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div className="flex flex-col items-start justify-start sm:flex ">
+            <a href="/" className="flex items-center mb-1">
+              <img src="/images/profile.svg" className="h-12 mr-2" alt="Logo" />
+              <span className="self-center text-xl whitespace-nowrap">Akash</span>
             </a>
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-              className="mx-3 font-bold hover:underline"
-            >
-              View on GitHub
-            </a>
+            {/*Social Media Icons */}
+            <ul aria-label="Social media" role="list" className="flex space-x-4 pl-2">
+              <li className="text-gray-500 w-6 h-6">
+                <a href="https://www.linkedin.com/in/akashdathan/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
+                  <img src="/images/linkedin.svg" alt="Linkedin Logo"/>
+                </a>
+              </li>
+              <li className="text-gray-500 w-6 h-6">
+                <a href="https://github.com/akashdathan" target="_blank" rel="noopener noreferrer" aria-label="Github">
+                  <img src="/images/github.svg" alt="Github Logo"/>
+                </a>
+              </li>
+              <li className="text-gray-500 w-6 h-6">
+                <a href="https://twitter.com/akash_dathan" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                  <img src="/images/twitter.svg" alt="Twitter Logo"/>
+                </a>
+              </li>
+              <li className="text-gray-500 w-6 h-6">
+                <a href="https://www.instagram.com/akash_dathan/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <img src="/images/instagram.svg" alt="Instagram Logo"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <hr className="my-6 sm:mx-auto" />
+          <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <span className="flex flex-wrap text-md lg:text-md text-font-grey justify-center md:justify-start">© 2023 Akash. All Rights Reserved.</span>
+            <ul className="flex flex-wrap items-center mt-1 text-md md:text-md font-medium text-font-grey justify-center md:justify-start">
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </Container>
-    </footer>
+      </footer>
   )
 }

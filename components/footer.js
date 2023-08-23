@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
 
           <hr className="my-6 sm:mx-auto" />
-          <div className="w-full mx-auto lg:px-20 md:px-10 md:flex md:items-center md:justify-between">
+          <div className="w-full mx-auto md:flex md:items-center md:justify-between">
             <span className="flex flex-wrap text-md lg:text-md text-font-grey justify-center md:justify-start">© 2023 Akash. All Rights Reserved.</span>
             <ul className="flex flex-wrap items-center mt-1 text-md md:text-md font-medium text-font-grey justify-center md:justify-start">
               <li>

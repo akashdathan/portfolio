@@ -12,8 +12,8 @@ export default function Blog({ preview, allPosts }) {
           <div className="bg-white py-24 sm:py-32">
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
                   <div className="mx-auto max-w-2xl lg:mx-0">
-                      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
-                      <p className="mt-2 text-lg leading-8 text-gray-600">
+                      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">From the blog</h2>
+                      <p className="mt-2 text-xl leading-8 text-gray-600">
                           Here, I unravel the intricacies of software development, drawing from my passion for simplicity, elegance, and robust performance.
                       </p>
                   </div>
@@ -21,7 +21,9 @@ export default function Blog({ preview, allPosts }) {
                   <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                       {allPosts.map((post) => (
                           <article className="flex max-w-xl flex-col items-start justify-between">
-                              <img className="rounded-xl" src={post.coverImage?.url} alt={post.title}/>
+                              <a href={`/blog/${post.slug}`}>
+                                  <img className="rounded-xl" src={post.coverImage?.url} alt={post.title}/>
+                              </a>
                               <div className="flex items-center gap-x-4 text-xs">
                                   <time dateTime={post.date} className="text-gray-500 mt-2">
                                       {new Date(post.date).toDateString()}

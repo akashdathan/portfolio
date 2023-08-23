@@ -26,9 +26,9 @@ export default function Header() {
     }, []);
 
     return (
-        <header className={`sticky max-w-screen-xl mx-auto top-0 z-30 w-full font-display ${isScrolled ? 'bg-opacity-50 bg-white backdrop-blur-md shadow-sm' : 'bg-white'}`}>
+        <header className={`sticky lg:px-20 md:px-10 mx-auto top-0 z-30 w-full font-display ${isScrolled ? 'bg-opacity-50 bg-white backdrop-blur-md shadow-sm' : 'bg-white'}`}>
 
-            <nav className="flex items-center justify-between lg:px-8" aria-label="Global">
+            <nav className="flex items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="/" className="-m-1.5 p-1.5 flex items-center">
                         <img

@@ -52,8 +52,8 @@ export default function Example() {
         </main>
 
         {/*Custom Footer*/}
-        <footer className="flex-grow flex items-end justify-center lg:px-8">
-          <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <footer className="flex items-end justify-center lg:px-8">
+          <div className="w-full mx-auto lg:px-20 md:px-10 p-4 md:flex md:items-center md:justify-between">
             <span className="flex flex-wrap text-md lg:text-md text-font-grey justify-center md:justify-start">© 2023 Akash. All Rights Reserved.</span>
             <ul className="flex flex-wrap items-center mt-1 text-md md:text-md font-medium text-font-grey justify-center md:justify-start">
               <li>

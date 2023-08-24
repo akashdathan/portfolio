@@ -32,11 +32,11 @@ export default function Header() {
                 <div className="flex lg:flex-1">
                     <a href="/" className="-m-1.5 p-1.5 flex items-center">
                         <img
-                            className="h-20 w-auto"
+                            className="h-20 pt-2 w-auto"
                             src="/images/profile.svg"
                             alt="Logo"
                         />
-                        <span className="ml-4 text-xl text-font-grey">Akash</span> {/* Your name added here */}
+                        <span className="ml-2 text-xl text-font-grey">Akash</span> {/* Your name added here */}
                     </a>
                 </div>
                 <div className="flex lg:hidden">

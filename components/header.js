@@ -32,7 +32,7 @@ export default function Header() {
                 <div className="flex lg:flex-1">
                     <a href="/" className="-m-1.5 p-1.5 flex items-center">
                         <img
-                            className="h-20 pt-2 w-auto"
+                            className="h-20 w-auto"
                             src="/images/profile.svg"
                             alt="Logo"
                         />

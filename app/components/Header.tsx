@@ -38,6 +38,7 @@ export default function Header() {
 							className="h-20 w-auto"
 							src="/images/profile.svg"
 							alt="Logo"
+							width={80} height={80}
 						/>
 						<span className="ml-2 text-xl text-font-grey">Akash</span>
 					</a>
@@ -74,6 +75,7 @@ export default function Header() {
 								className="h-20 w-auto"
 								src="/images/profile.svg"
 								alt="Logo"
+								width={80} height={80}
 							/>
 							<span className="ml-2 text-xl text-font-grey">Akash</span>
 						</a>

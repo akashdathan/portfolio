@@ -12,29 +12,29 @@ export default function Footer({ isHomePage }: State) {
 					<>
 						<div className="flex flex-col items-start justify-start sm:flex ">
 							<a href="/" className="flex items-center mb-1">
-								<Image src="/images/profile.svg" className="h-12 mr-2" alt="Logo" />
+								<Image width={50} height={50} src="/images/profile.svg" className="h-12 mr-2" alt="Logo" />
 								<span className="self-center text-xl whitespace-nowrap">Akash</span>
 							</a>
 							{/*Social Media Icons */}
 							<ul aria-label="Social media" role="list" className="flex space-x-4 pl-2">
 								<li className="text-gray-500 w-6 h-6">
 									<a href="https://www.linkedin.com/in/akashdathan/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
-										<Image src="/images/linkedin.svg" alt="Linkedin Logo"/>
+										<Image width={24} height={24} src="/images/linkedin.svg" alt="Linkedin Logo"/>
 									</a>
 								</li>
 								<li className="text-gray-500 w-6 h-6">
 									<a href="https://github.com/akashdathan" target="_blank" rel="noopener noreferrer" aria-label="Github">
-										<Image src="/images/github.svg" alt="Github Logo"/>
+										<Image width={24} height={24} src="/images/github.svg" alt="Github Logo"/>
 									</a>
 								</li>
 								<li className="text-gray-500 w-6 h-6">
 									<a href="https://twitter.com/akash_dathan" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-										<Image src="/images/twitter.svg" alt="Twitter Logo"/>
+										<Image width={24} height={24} src="/images/twitter.svg" alt="Twitter Logo"/>
 									</a>
 								</li>
 								<li className="text-gray-500 w-6 h-6">
 									<a href="https://www.instagram.com/akash_dathan/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-										<Image src="/images/instagram.svg" alt="Instagram Logo"/>
+										<Image width={24} height={24} src="/images/instagram.svg" alt="Instagram Logo"/>
 									</a>
 								</li>
 							</ul>

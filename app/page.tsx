@@ -19,22 +19,22 @@ export default function Home() {
 						<ul aria-label="Social media" role="list" className="flex space-x-4 pl-0 pt-5">
 							<li className="text-gray-500">
 								<a href="https://www.linkedin.com/in/akashdathan/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
-									<Image src="/images/linkedin.svg" alt="Linkedin Logo"/>
+									<Image width={40} height={40} src="/images/linkedin.svg" alt="Linkedin Logo"/>
 								</a>
 							</li>
 							<li className="text-gray-500">
 								<a href="https://github.com/akashdathan" target="_blank" rel="noopener noreferrer" aria-label="Github">
-									<Image src="/images/github.svg" alt="Github Logo"/>
+									<Image width={40} height={40} src="/images/github.svg" alt="Github Logo"/>
 								</a>
 							</li>
 							<li className="text-gray-500">
 								<a href="https://twitter.com/akash_dathan" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-									<Image src="/images/twitter.svg" alt="Twitter Logo"/>
+									<Image width={40} height={40} src="/images/twitter.svg" alt="Twitter Logo"/>
 								</a>
 							</li>
 							<li className="text-gray-500">
 								<a href="https://www.instagram.com/akash_dathan/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-									<Image src="/images/instagram.svg" alt="Instagram Logo"/>
+									<Image width={40} height={40} src="/images/instagram.svg" alt="Instagram Logo"/>
 								</a>
 							</li>
 						</ul>
@@ -42,7 +42,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="w-full md:w-1/2">
-					<Image src="/images/newspaper.svg" alt="Newspaper" className="mx-auto md:max-w-md lg:max-w-lg xl:max-w-2xl" />
+					<Image width={512} height={512} src="/images/newspaper.svg" alt="Newspaper" className="mx-auto md:max-w-md lg:max-w-lg xl:max-w-2xl" />
 				</div>
 			</div>
 		</main>

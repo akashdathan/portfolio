@@ -30,7 +30,7 @@ export default function Blog() {
 						{posts.map((post) => (
 							<article key={post.id} className="flex max-w-xl flex-col items-start">
 								<a href={post.url} target="_blank" rel="noopener noreferrer">
-									<Image className="rounded-xl" src={post.cover_image} alt={post.title}/>
+									<Image width={500} height={200} className="rounded-xl" src={post.cover_image} alt={post.title}/>
 								</a>
 								<div className="flex items-start gap-x-4 text-xs px-2 mt-2">
 									<time dateTime={post.published_at} className="text-gray-500">

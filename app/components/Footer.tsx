@@ -12,7 +12,7 @@ export default function Footer({ isHomePage }: State) {
 					<>
 						<div className="flex flex-col items-start justify-start sm:flex ">
 							<a href="/" className="flex items-center mb-1">
-								<Image width={50} height={50} src="/images/profile.svg" className="h-12 mr-2" alt="Logo" />
+								<Image width={50} height={48} src="/images/profile.svg" className="h-12 mr-2" alt="Logo" />
 								<span className="self-center text-xl whitespace-nowrap">Akash</span>
 							</a>
 							{/*Social Media Icons */}

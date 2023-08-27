@@ -1,4 +1,4 @@
-export interface DevToArticleMeta {
+interface DevToArticleMeta {
     type_of: string;
     id: number;
     title: string;
@@ -22,11 +22,11 @@ const DEV_TO_USERNAME = 'akash_dathan';
 const ARTICLES_API = `https://dev.to/api/articles?username=${DEV_TO_USERNAME}`;
 
 export const fetchArticles = async (): Promise<DevToArticleMeta[]> => {
-	try {
-		const response = await fetch(ARTICLES_API);
+	const response = await fetch(ARTICLES_API, { next: { revalidate: 3600 }});
 
-		return response.json();
-	} catch(error) {
+	if (!response.ok) {
 		return [];
 	}
+
+	return response.json();
 };

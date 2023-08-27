@@ -1,4 +1,10 @@
 import Image from 'next/image';
+
+export const metadata = {
+	title: 'Akash Dathan',
+	description: 'Minimalistic portfolio, includes social media links, blogs and tools I use'
+};
+
 export default function Home() {
 	return (
 		<main className="flex-grow flex items-center justify-center">

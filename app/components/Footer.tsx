@@ -16,23 +16,23 @@ export default function Footer({ isHomePage }: State) {
 								<span className="self-center text-xl whitespace-nowrap">Akash</span>
 							</a>
 							{/*Social Media Icons */}
-							<ul aria-label="Social media" role="list" className="flex space-x-4 pl-2">
-								<li className="text-gray-500 w-6 h-6">
+							<ul aria-label="Social media" role="list" className="flex  pl-2">
+								<li className="text-gray-500 w-6 h-6 m-2 ml-0">
 									<a href="https://www.linkedin.com/in/akashdathan/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
 										<Image width={24} height={24} src="/images/linkedin.svg" alt="Linkedin Logo"/>
 									</a>
 								</li>
-								<li className="text-gray-500 w-6 h-6">
+								<li className="text-gray-500 w-6 h-6 m-2">
 									<a href="https://github.com/akashdathan" target="_blank" rel="noopener noreferrer" aria-label="Github">
 										<Image width={24} height={24} src="/images/github.svg" alt="Github Logo"/>
 									</a>
 								</li>
-								<li className="text-gray-500 w-6 h-6">
+								<li className="text-gray-500 w-6 h-6 m-2">
 									<a href="https://twitter.com/akash_dathan" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
 										<Image width={24} height={24} src="/images/twitter.svg" alt="Twitter Logo"/>
 									</a>
 								</li>
-								<li className="text-gray-500 w-6 h-6">
+								<li className="text-gray-500 w-6 h-6 m-2">
 									<a href="https://www.instagram.com/akash_dathan/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
 										<Image width={24} height={24} src="/images/instagram.svg" alt="Instagram Logo"/>
 									</a>

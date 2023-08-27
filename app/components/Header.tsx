@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect } from 'react'
 import { Dialog } from '@headlessui/react'
 import {
@@ -26,7 +28,7 @@ export default function Header() {
     }, []);
 
     return (
-        <header className={`sticky lg:px-20 md:px-10 mx-auto top-0 z-30 w-full font-display ${isScrolled ? 'bg-opacity-50 bg-white backdrop-blur-md shadow-sm' : 'bg-white'}`}>
+        <header className={`sticky top-0 z-30 max-w-screen-2xl mx-auto w-full px-6 ${isScrolled && 'bg-opacity-50 backdrop-blur-md shadow-sm'}`}>
 
             <nav className="flex items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
@@ -36,7 +38,7 @@ export default function Header() {
                             src="/images/profile.svg"
                             alt="Logo"
                         />
-                        <span className="ml-2 text-xl text-font-grey">Akash</span> {/* Your name added here */}
+                        <span className="ml-2 text-xl text-font-grey">Akash</span>
                     </a>
                 </div>
                 <div className="flex lg:hidden">
@@ -64,15 +66,15 @@ export default function Header() {
 
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-50" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
-                        <a href="/" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Akash</span>
+                        <a href="/" className="-m-1.5 p-1.5 flex items-center">
                             <img
-                                className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                alt=""
+                                className="h-20 w-auto"
+                                src="/images/profile.svg"
+                                alt="Logo"
                             />
+                            <span className="ml-2 text-xl text-font-grey">Akash</span>
                         </a>
                         <button
                             type="button"

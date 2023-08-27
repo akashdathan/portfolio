@@ -48,7 +48,13 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="w-full md:w-1/2">
-					<Image width={512} height={512} src="/images/newspaper.svg" alt="Newspaper" className="mx-auto md:max-w-md lg:max-w-lg xl:max-w-2xl" />
+					<Image
+						width={512}
+						height={512}
+						src="/images/newspaper.svg"
+						alt="Newspaper"
+						loading="eager"
+						className="mx-auto md:max-w-md lg:max-w-lg xl:max-w-2xl" />
 				</div>
 			</div>
 		</main>

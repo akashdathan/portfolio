@@ -18,15 +18,15 @@ export interface DevToArticleMeta {
     tag_list: Array<string>;
 }
 
-const DEV_TO_USERNAME = "akash_dathan";
-const ARTICLES_API = `https://dev.to/api/articles?username=${DEV_TO_USERNAME}`
+const DEV_TO_USERNAME = 'akash_dathan';
+const ARTICLES_API = `https://dev.to/api/articles?username=${DEV_TO_USERNAME}`;
 
 export const fetchArticles = async (): Promise<DevToArticleMeta[]> => {
-    try {
-        const response = await fetch(ARTICLES_API);
+	try {
+		const response = await fetch(ARTICLES_API);
 
-        return response.json();
-    } catch(error) {
-        return []
-    }
+		return response.json();
+	} catch(error) {
+		return [];
+	}
 };

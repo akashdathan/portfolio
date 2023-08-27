@@ -1,3 +1,21 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "quotes": ["error", "single"],
+    "indent": ["error", "tab", { "SwitchCase": 1 }],
+    "no-tabs": "off",
+    "eqeqeq": ["error", "always"],
+    "no-eval": "error",
+    "curly": "error",
+    "semi": ["error", "always"],
+    "brace-style": ["error", "1tbs"],
+    "camelcase": "error",
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "prefer-const": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-template": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  }
 }

@@ -3,8 +3,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { usePathname } from 'next/navigation'
-import Header from "@/app/components/Header";
-import Footer from "@/app/components/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +21,7 @@ export default function RootLayout({
           <div className="bg-white flex flex-col min-h-screen">
               <Header/>
 
-              <div className={`flex-grow px-6 ${pathname === '/' ? 'items-center' : ''} flex`}>
+              <div className={`flex-grow px-6 max-w-screen-2xl mx-auto w-full ${pathname === '/' ? 'items-center' : ''} flex`}>
                   {children}
               </div>
 

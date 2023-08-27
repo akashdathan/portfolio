@@ -20,10 +20,7 @@ export default function Post({ post, morePosts, preview }) {
   return (
     <Layout preview={preview}>
       <Container>
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
+        <>
             <article>
               <Head>
                 <title>{post.title}</title>
@@ -37,12 +34,13 @@ export default function Post({ post, morePosts, preview }) {
               />
               <PostBody content={post.content} />
             </article>
+
             <SectionSeparator />
+
             {morePosts && morePosts.length > 0 && (
               <MoreStories posts={morePosts} />
             )}
-          </>
-        )}
+        </>
       </Container>
     </Layout>
   )

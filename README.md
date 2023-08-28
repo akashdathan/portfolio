@@ -4,7 +4,7 @@ This is the code for my personal portfolio, feel free to fork it or create a PR 
 
 Blog section lists the articles published on [dev.to](https://www.dev.to)
 
-### [akashdathan.co](https://next-blog-contentful.vercel.app/)
+### [akashdathan.co](https://akashdathan.co)
 
 ## Home Page
 ![Demo Image](./demo-home.png)

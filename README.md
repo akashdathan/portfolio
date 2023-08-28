@@ -33,7 +33,7 @@ This is the code for a minimalistic notion inspired portfolio, feel free to fork
 
 You can deploy this template to Vercel with the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fakashdathan%2Fportfolio&project-name=minimalistic-portfolio&repository-name=minimalistic-portfolio&redirect-url=https%3A%2F%2Ftwitter.com%2Fakash_dathan&developer-id=z1GWQU26Cgp4lk1XwCF7Dnfn&demo-title=Minimalistic%20Portfolio&demo-description=Notion%20Inspired%20Minimalistic%20Portfolio%20Usinfg%20NextJS%20%26%20TailwindCSS&demo-url=https%3A%2F%2Fakashdathan.co&demo-image=https%3A%2F%2Fakashdathan.co%2Fimages%2Fdemo-image.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fakashdathan%2Fportfolio&project-name=minimalistic-portfolio&repository-name=minimalistic-portfolio&demo-title=Minimalistic%20Portfolio&demo-description=Notion%20Inspired%20Minimalistic%20Portfolio%20Usinfg%20NextJS%20%26%20TailwindCSS&demo-url=https%3A%2F%2Fakashdathan.co&demo-image=https%3A%2F%2Fakashdathan.co%2Fimages%2Fdemo-image.png)
 
 You can also clone & create this repo locally with the following command:
 

@@ -19,7 +19,7 @@ export default function RootLayout({
 		<html lang="en">
 			{/*Need this for PWA, Next13 not yet supports this*/}
 			<head>
-				<meta name="theme-color" content="#0000FF" />
+				<meta name="theme-color" content="#FFFFFF" />
 			</head>
 			<body className={inter.className}>
 				<div className="bg-white flex flex-col min-h-screen">

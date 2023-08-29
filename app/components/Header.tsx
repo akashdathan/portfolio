@@ -10,8 +10,8 @@ import {
 
 const navigation = [
 	{ name: 'Blog', href: '/blog' },
-	{ name: 'Stack', href: '#' },
-	{ name: 'Tools', href: '#' },
+	{ name: 'Projects', href: '/projects' },
+	// { name: 'My Gear', href: '#' },
 ];
 
 export default function Header() {

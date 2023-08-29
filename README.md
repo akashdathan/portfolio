@@ -1,5 +1,5 @@
 <a href="https://akashdathan.co">
-  <img alt="Notion INspired minimalistic portfolio" src="docs/demo-home.png">
+  <img alt="Notion Inspired minimalistic portfolio" src="docs/demo-home.png">
 
   <h1 align="center">Minimalistic Portfolio</h1>
 </a>

@@ -9,8 +9,8 @@ import {
 } from '@heroicons/react/24/outline';
 
 const navigation = [
-	{ name: 'Blog', href: '/blog' },
 	{ name: 'Projects', href: '/projects' },
+	{ name: 'Blog', href: '/blog' },
 	// { name: 'My Gear', href: '#' },
 ];
 

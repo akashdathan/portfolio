@@ -51,7 +51,7 @@ export default function Home() {
 					<Image
 						width={512}
 						height={512}
-						src="/images/newspaper.svg"
+						src="/images/home.svg"
 						alt="Newspaper"
 						loading="eager"
 						className="mx-auto md:max-w-md lg:max-w-lg xl:max-w-2xl" />

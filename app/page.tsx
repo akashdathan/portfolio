@@ -24,6 +24,11 @@ export default function Home() {
 						{/*Social Media Icons */}
 						<ul aria-label="Social media" role="list" className="flex space-x-4 pl-0 pt-5">
 							<li className="text-gray-500">
+								<a href="https://twitter.com/akash_dathan" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+									<Image width={40} height={40} src="/images/twitter.svg" alt="Twitter Logo"/>
+								</a>
+							</li>
+							<li className="text-gray-500">
 								<a href="https://www.linkedin.com/in/akashdathan/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
 									<Image width={40} height={40} src="/images/linkedin.svg" alt="Linkedin Logo"/>
 								</a>
@@ -31,11 +36,6 @@ export default function Home() {
 							<li className="text-gray-500">
 								<a href="https://github.com/akashdathan" target="_blank" rel="noopener noreferrer" aria-label="Github">
 									<Image width={40} height={40} src="/images/github.svg" alt="Github Logo"/>
-								</a>
-							</li>
-							<li className="text-gray-500">
-								<a href="https://twitter.com/akash_dathan" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-									<Image width={40} height={40} src="/images/twitter.svg" alt="Twitter Logo"/>
 								</a>
 							</li>
 							<li className="text-gray-500">

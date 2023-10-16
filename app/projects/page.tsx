@@ -25,7 +25,7 @@ const projects = [{
 	coverImage: '/images/dresdener.png',
 }];
 
-export default async  function Blog() {
+export default async function Blog() {
 
 	return (
 		<div className="bg-white py-24 sm:py-32">

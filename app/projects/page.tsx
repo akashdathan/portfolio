@@ -6,6 +6,12 @@ export const metadata = {
 };
 
 const projects = [{
+	name: 'GraphicsMagick Palette',
+	description: 'Dominant color and palette using graphicsmagick',
+	icon: '',
+	url: 'https://github.com/akashdathan/gm-palette',
+	coverImage: '/images/palette.png'
+}, {
 	name: 'ExTrak',
 	description: 'Expense Tracker | IOS App | SwiftUI',
 	icon: '',

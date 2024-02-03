@@ -30,7 +30,7 @@ export default function RootLayout({
 					</div>
 
 					<div className="mt-auto">
-						<Footer isHomePage={pathname === '/'} />
+						<Footer />
 					</div>
 				</div>
 			</body>

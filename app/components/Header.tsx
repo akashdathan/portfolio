@@ -10,7 +10,7 @@ import {
 
 const navigation = [
 	{ name: 'Projects', href: '/projects' },
-	{ name: 'Blog', href: '/blog' },
+	// { name: 'Blog', href: '/blog' },
 	// { name: 'My Gear', href: '#' },
 ];
 

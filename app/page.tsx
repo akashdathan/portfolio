@@ -38,11 +38,6 @@ export default function Home() {
 									<Image width={40} height={40} src="/images/github.svg" alt="Github Logo"/>
 								</a>
 							</li>
-							<li className="text-gray-500">
-								<a href="https://www.instagram.com/akash_dathan/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-									<Image width={40} height={40} src="/images/instagram.svg" alt="Instagram Logo"/>
-								</a>
-							</li>
 						</ul>
 
 					</div>
